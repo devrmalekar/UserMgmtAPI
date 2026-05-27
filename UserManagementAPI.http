@@ -1,0 +1,8 @@
+@UserManagementAPI_HostAddress = http://localhost:5156
+@AuthToken = mysecrettoken123
+
+GET {{UserManagementAPI_HostAddress}}/api/usermgmt/
+Accept: application/json
+#Authorization: Bearer {{AuthToken}}
+
+###
